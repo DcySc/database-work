@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>教务</title>
+        <link rel="stylesheet" href="css/config.css">
+        <link rel="stylesheet" href="css/nav-jiaowu.css">
+        <link rel="stylesheet" href="css/recheck.css">
+    </head>
+    <body>
+        <div class = "nav">
+            <div class="nav_a"><a href="setchart.html">设置表格</a></div>
+            <div class="nav_a"><a href="recheck.html"  style="color:#ffd04b">复查申请</a></div>
+            <div class="nav_a"><a href="send.html">发布成绩</a></div>
+        </div>
+        <div class="head">
+            <div class="title">
+                复查申请
+            </div>
+            
+        </div>
+
+
+        <div id="recheck">
+            <table>
+                <tr>
+                    <td>学号</td>
+                    <td contenteditable="true" id="_Sno"></td>
+                    <td>科目</td>
+                    <td contenteditable="true" id="_Subjectname"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">成绩修改为</td>
+                    <td colspan="2" contenteditable="true" id="_grade"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="border:0; height:60px;"><button onclick="submit()">提交</button></td>
+                </tr>
+            </table>  
+        </div>
+        <script src="js/recheck.js"></script>
+    </body>
+</html>

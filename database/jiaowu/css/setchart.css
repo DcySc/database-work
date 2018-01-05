@@ -1,0 +1,70 @@
+.content{
+    width:80%;
+    height:500px;
+    margin:50px auto;
+    padding:10px;
+
+    background-color:#fff;
+    overflow: hidden;
+}
+.text{
+    display: inline-block;
+    width:100px;
+    float:left;
+}
+.content select{
+    float:right;
+    width:130px;
+    line-height: 20px;
+}
+.content span{
+    float:left;
+    margin:0px 2px;
+}
+.choose{
+    margin:20px auto;
+    text-align:center;
+    width:250px;
+    height:20px;
+    z-index: 1;
+}
+.choose_1{
+    margin:20px auto;
+    text-align:center;
+    width:250px;
+    height:20px;
+    display:none;
+    z-index: 1;
+}
+.choose_2{
+    margin:20px auto;
+    text-align:center;
+    width:1000px;
+    display:none;
+    z-index: 1;
+}
+.item_s{
+    width:20px;
+    margin:10px 0 0px 0;
+}
+button{
+    margin:0 0 10px 0;
+}
+.preview{
+    margin:30px auto;
+    text-align:center;
+    width:1000px;
+}
+#pre{
+    display:none;
+    width:1000px;
+    text-align: center;
+    margin:10px auto;
+    border:1px solid black;
+    border-collapse:collapse;
+}
+.title th{
+    width:20px;
+    height:20px;
+    border:1px solid black;
+}

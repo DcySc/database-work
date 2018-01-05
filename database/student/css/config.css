@@ -1,0 +1,17 @@
+*{margin:0;padding:0; font-family: "微软雅黑";}
+body{
+    position: relative;
+    padding-top:60px;
+    background-color:#eeeef8;
+}
+button{
+    border:0;
+    width:100px;
+    margin:10px auto;
+    height: 35px;
+    border-radius:5px;
+    color:#fff;
+    cursor:pointer;
+    background:rgb(59, 152, 228);
+    outline: 0;
+}

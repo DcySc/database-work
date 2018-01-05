@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>teacher</title>
+    <link rel="stylesheet" href="css/config.css">
+    <link rel="stylesheet" href="css/nav-teacher.css">
+    <link rel="stylesheet" href="css/setgrade.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav_a">
+            <a href="setgrade.html" style="color:#ffd04b">录入成绩</a>
+        </div>
+        <div class="nav_a">
+            <a href="notice.html">复查申请</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="choose">
+            <div class="text">班 级</div>
+            <span>:</span>
+            <select id="clas" onchange='btnChange(this[selectedIndex].value)'>
+                <option value="">请选择班级</option>
+            </select>
+        </div>
+        <div id="input_grade">
+            
+        </div>
+    </div>
+
+    <script src="js/setgrade.js"></script>
+</body>
+
+</html>

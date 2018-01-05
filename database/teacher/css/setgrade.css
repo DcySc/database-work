@@ -1,0 +1,48 @@
+.content{
+    width:80%;
+    height:500px;
+    margin:50px auto;
+    padding:10px;
+    background-color:#fff;
+    overflow: hidden;
+}
+.text{
+    display: inline-block;
+    width:40px;
+    float:left;
+}
+.content select{
+    float:right;
+    width:130px;
+    line-height: 20px;
+}
+.content span{
+    float:left;
+    margin:0px 2px;
+}
+.choose{
+    margin:20px 0 0 20px;
+    text-align:center;
+    width:185px;
+    height:20px;
+    z-index: 1;
+}
+
+#input_grade{
+    width:90%;
+    margin:50px auto;
+}
+#input_grade table{
+    width:100%;
+    border-collapse:collapse;
+    border:1px solid black;
+    text-align:center;
+}
+#input_grade th{
+    border:1px solid black;
+    height:40px;
+}
+#input_grade td{
+    border:1px solid black;
+    height:40px;
+}

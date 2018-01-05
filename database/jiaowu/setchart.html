@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>教务</title>
+        <link rel="stylesheet" href="css/config.css">
+        <link rel="stylesheet" href="css/nav-jiaowu.css">
+        <link rel="stylesheet" href="css/setchart.css">
+    </head>
+    <body>
+        <div class = "nav">
+            <div class="nav_a"><a href="setchart.html" style="color:#ffd04b">设置表格</a></div>
+            <div class="nav_a"><a href="recheck.html">复查申请</a></div>
+            <div class="nav_a"><a href="send.html">发布成绩</a></div>
+        </div>
+        <div class="content">
+            <div class="choose">
+                <div class="text">学 年</div>
+                <span>:</span> 
+                <select id="year">
+                    <option value="">请选择学年</option>
+                </select>
+            </div>
+            <div class="choose">
+                <div class="text">学 期</div> 
+                <span>:</span> 
+                <select id="term">
+                    <option value="">请选择学期</option>
+                    <option value="01">1</option>
+                    <option value="02">2</option>
+                </select>
+            </div>
+            <div class="choose">
+                <div class="text">年 级</div>
+                <span>:</span> 
+                <select id="grade">
+                    <option value="">请选择年级</option>
+                    <option value="01">1</option>
+                    <option value="02">2</option>
+                    <option value="03">3</option>
+                    <option value="04">4</option>
+                    <option value="05">5</option>
+                    <option value="06">6</option>
+                </select>
+            </div>
+            <div class="choose"> 
+                <div class="text">科 目</div>
+                <span>:</span> 
+                <select id="subject">
+                    <option value="">请选择科目</option>
+                </select>
+            </div>
+            <div class="choose_1">
+                <div class="text">大题数</div>
+                <span>:</span> 
+                <select id="item_b">
+                        <option value="">请选择大题数</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                </select>
+            </div>
+            <hr>
+            <div class="choose_2">
+                <div >请依次输入每道大题的小题数</div>
+            </div>
+            <div class="preview">
+                <table id="pre">
+
+                </table>
+            </div>
+        </div>
+        <script src="js/setchart.js"></script>
+    </body>
+</html>
